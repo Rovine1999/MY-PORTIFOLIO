@@ -30,9 +30,8 @@ a:hover {
     transition: .5s;
 }
 
-* {
-    background-color: green;
-    background-image: url(nature.jpg);
+body {
+    background-image: url(/image/nature.jpg);
 }
 
 .par {
@@ -47,7 +46,6 @@ a:hover {
     border-radius: 90%;
 }
 
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 *{
 	padding:0;

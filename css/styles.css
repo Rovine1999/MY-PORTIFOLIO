@@ -1,0 +1,43 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Helvetica;
+    text-shadow: 3px 2px red;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px brown;
+}
+
+.nav a {
+    float: left;
+    margin-left: 15%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.column {
+    display: flex;
+    width: 10%;
+}
+a:hover {
+    color: red;
+    transition: .5s;
+}
+
+* {
+    background-color: green;
+}
+
+.par {
+    float: left;
+    display: flex;
+    justify-content: space-between 10px;
+    padding: 5%;
+}
+

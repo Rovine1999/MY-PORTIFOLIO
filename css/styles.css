@@ -12,6 +12,7 @@ h2 {
     text-shadow: 3px 3px brown;
 }
 
+
 .nav a {
     float: left;
     margin-left: 15%;
@@ -189,7 +190,6 @@ footer{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
-	margin:0;
 }
 
 .footer-distributed .footer-center p span{
@@ -199,17 +199,15 @@ footer{
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center p a {
 	color:  #e0ac1c;
-	text-decoration: none;;
-}
+	text-decoration: none;
 
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
-	width: 30%;
-	
+.footer-distributed .footer-right {
+	width: 30%;	
 }
 
 .footer-distributed .footer-company-about{

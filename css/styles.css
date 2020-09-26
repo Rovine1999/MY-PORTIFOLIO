@@ -122,43 +122,42 @@ footer{
 
 /* Footer left */
 
-.footer-distributed .footer-left{
-    width: 25%;
-    margin-bottom: 0%;
+.footer-distributed .footer-left img{
+    width: 20%;
+    margin-left: 0px;
 }
 
-.footer-distributed 
-	color:  #0;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+.footer-distributed {
+	height: 20%;
+} 
 
 .footer-distributed .footer-left img{
 	width: 30%;
+}
+
+.footer-distributed .footer-left {
+	
 }
 
 .footer-distributed h3 span{
 	color:  #e0ac1c;
 }
 
-/* Footer links
-
-/* .footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
+.footer-distributed h3 {
+	color: #ffffff;
 }
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit; */
-}
+
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
+}
+
+.footer-distributed .footer-right span {
+	color: #ffffff;
 }
 
 

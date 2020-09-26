@@ -272,3 +272,8 @@ footer{
 	margin-top: 20px;
 	margin-right: 5px;
 }
+
+.work ol {
+	margin-top: 50%;
+	text-align: center;
+}

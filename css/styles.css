@@ -15,17 +15,17 @@ h2 {
 
 .nav a {
     float: left;
-    margin-left: 15%;
+    margin-left: 5%;
     color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
 }
 
-.column {
+/* .column {
     display: flex;
     width: 10%;
-}
+} */
 a:hover {
     color: red;
     transition: .5s;
@@ -265,8 +265,10 @@ footer{
 		margin-left: 0;
 	}
 
-}
 
-.background .column {
-	float: right;
+
+.background {
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 5px;
 }

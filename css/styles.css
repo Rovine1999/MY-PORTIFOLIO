@@ -12,9 +12,14 @@ h2 {
     text-shadow: 3px 3px brown;
 }
 
-
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .nav a {
-    float: left;
+    /* float: left; */
     margin-left: 5%;
     color: black;
     text-decoration: none;
@@ -34,7 +39,7 @@ body {
     background-size: cover;
 }
 
-.par {
+/* .par {
 	float: left;
 	justify-content: space-between 50%;
 	text-align: center;
@@ -54,8 +59,20 @@ body {
 	border-radius: 90%;
 	margin-left: 50%;
 	margin-right: -70%;
+} */
+.par {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
-
+.pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.paragraph p{
+	font-size: 30px;
+}
 
 
 header h1{
@@ -257,4 +274,15 @@ footer{
 	margin-top: 50%;
 	text-align: center;
 	color: crimson;
+}
+
+#skills {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 200px;
+	
+}
+
+#skills {
+	margin-left: 10px;
 }

@@ -38,26 +38,28 @@ body {
 }
 
 .par {
-    float: left;
-    display: flex;
-    justify-content: space-between 50%;
-    padding: 5%;
+	/* display: flex; */
+	float: left;
+	justify-content: space-between 50%;
+	text-align: center;
 }
 
-.par p { font-size: large;
-width: 800px;
+.par p { 
+	font-size: large;
+    width: 800px;
+}
+
+.par a {
+	padding-top: 20px;
 }
 
 
 .pic {
-    border-radius: 90%;
+	border-radius: 90%;
+	margin-left: 50%;
+	margin-right: -70%;
 }
 
-
-*{
-	padding:0;
-	margin:0;
-}
 
 /* html{
 	background-color: #eaf0f2;
@@ -129,30 +131,27 @@ footer{
 	color:  #0;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
-}
 
-/* The company logo */
-
-/* .footer-distributed .footer-left img{
+.footer-distributed .footer-left img{
 	width: 30%;
-} */
+}
 
 .footer-distributed h3 span{
 	color:  #e0ac1c;
 }
 
-/* Footer links */
+/* Footer links
 
 /* .footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 20px 0 12px; */
+	margin: 20px 0 12px;
 }
 
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
-	color:  inherit;
+	color:  inherit; */
 }
 
 .footer-distributed .footer-company-name{
@@ -265,15 +264,20 @@ footer{
 		margin-left: 0;
 	}
 
+	.background h3 {
+      color: #e0ac1c;
+	}
 
 
-.background {
+
+.column {
+	color: #e0ac1c;
 	text-align: center;
-	margin-top: 20px;
-	margin-right: 5px;
+	font-size: 24px;
+	
 }
 
-.work ol {
+.work ol  {
 	margin-top: 50%;
 	text-align: center;
 }

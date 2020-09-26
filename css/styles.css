@@ -29,6 +29,7 @@ h2 {
 }
 
 
+
 a:hover {
     color: red;
     transition: .5s;
@@ -93,13 +94,14 @@ header span{
 
 footer{
 	position: fixed;
-	bottom: 0;
+	bottom: 0;	
 }
 
-/* @media (max-height:800px){
+
+@media (max-height:300px){
 	footer { position: static; }
-	header { padding-top:40px; }
-} */
+	/* header { padding-top:40px; } */
+}
 
 
 .footer-distributed{
@@ -109,6 +111,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	margin-top: 80px;
+	height: 30px;
 }
 
 .footer-distributed .footer-left,
@@ -283,6 +286,19 @@ footer{
 	
 }
 
-/* #skills {
-	margin-left: 10px;
-} */
+#skills {
+	font-weight: bold;
+}
+
+
+.skills {
+	margin-left: 10%;
+}
+
+.hobbies {
+	margin-left: 25%;
+}
+
+.photo {
+	border-radius: 70%;
+}

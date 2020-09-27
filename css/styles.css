@@ -303,7 +303,12 @@ footer{
 }
 
 .photo {
-	border-radius: 70%;
+	border-radius: 80%;
+}
+
+.comment1 img {
+	margin-left: 25px;
+	margin-top: 20px;
 }
 
 #contacts img span {

@@ -303,3 +303,16 @@ footer{
 	border-radius: 70%;
 }
 
+#contacts img span {
+	color: wheat;
+}
+
+.pego {
+	color: whitesmoke;
+	font-size: 48px;
+}
+
+
+#contacts {
+	align-items: center;
+}

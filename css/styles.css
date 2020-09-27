@@ -306,9 +306,24 @@ footer{
 	border-radius: 80%;
 }
 
-.comment1 img {
-	margin-left: 25px;
-	margin-top: 20px;
+/* .kitui {
+	margin-top: 96px; */
+
+}
+
+
+.comment1 .kitui {
+	margin-bottom: 50%;
+}
+
+/* .comment2 {
+	margin-top: 2%;
+	margin-left: 20%;
+} */
+
+.class {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 #contacts img span {

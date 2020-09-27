@@ -12,20 +12,24 @@ h2 {
     text-shadow: 3px 3px brown;
 }
 
-
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .nav a {
-    float: left;
-    margin-left: 15%;
+    /* float: left; */
+    margin-left: 9%;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+	font-size: 24px;
+
 }
 
-.column {
-    display: flex;
-    width: 10%;
-}
+
+
 a:hover {
     color: red;
     transition: .5s;
@@ -37,47 +41,46 @@ body {
     background-size: cover;
 }
 
-.par {
-    float: left;
-    display: flex;
-    justify-content: space-between 50%;
-    padding: 5%;
+/* .par {
+	float: left;
+	justify-content: space-between 50%;
+	text-align: center;
 }
 
-.par p { font-size: large;
-width: 800px;
+.par p { 
+	font-size: large;
+    width: 800px;
+}
+
+.par a {
+	padding-top: 20px;
 }
 
 
 .pic {
-    border-radius: 90%;
-}
-
-
-*{
-	padding:0;
-	margin:0;
-}
-
-/* html{
-	background-color: #eaf0f2;
+	border-radius: 90%;
+	margin-left: 50%;
+	margin-right: -70%;
 } */
-
-body{
-	font:16px/1.6 Arial,  sans-serif;
+.par {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.pic {
+	border-radius: 70%;
+	height: 250px;
+}
+.paragraph p{
+	font-size: 30px;
 }
 
-/* header{
-	text-align: center;
-	padding-top: 100px;
-	margin-bottom:190px;
-} */
 
-header h1{
+/* header h1{
 	font: normal 32px/1.5 'Open Sans', sans-serif;
 	color: #3F71AE;
 	padding-bottom: 16px;
-}
+} */
 
 header h2{
 	color: #F05283;
@@ -88,17 +91,17 @@ header span{
 }
 
 
-/* The footer is fixed to the bottom of the page */
 
 footer{
 	position: fixed;
-	bottom: 0;
+	bottom: 0;	
 }
 
-/* @media (max-height:800px){
+
+@media (max-height:300px){
 	footer { position: static; }
-	header { padding-top:40px; }
-} */
+	/* header { padding-top:40px; } */
+}
 
 
 .footer-distributed{
@@ -107,8 +110,8 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	/* padding: 50px 50px 60px 50px; */
 	margin-top: 80px;
+	height: 30px;
 }
 
 .footer-distributed .footer-left,
@@ -118,48 +121,43 @@ footer{
 	vertical-align: top;
 }
 
-/* Footer left */
 
-.footer-distributed .footer-left{
-    width: 25%;
-    margin-bottom: 0%;
+.footer-distributed .footer-left img{
+    width: 20%;
+    margin-left: 0px;
 }
 
-.footer-distributed 
-	color:  #0;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
-}
+.footer-distributed {
+	height: 20%;
+} 
 
-/* The company logo */
-
-/* .footer-distributed .footer-left img{
+.footer-distributed .footer-left img{
 	width: 30%;
-} */
+}
+
+.footer-distributed .footer-left .footer-name p {
+	margin-bottom: 20%;
+}
 
 .footer-distributed h3 span{
 	color:  #e0ac1c;
 }
 
-/* Footer links */
-
-/* .footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px; */
+.footer-distributed h3 {
+	color: #ffffff;
 }
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
+
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
+}
+
+.footer-distributed .footer-right span {
+	color: #ffffff;
 }
 
 
@@ -202,12 +200,10 @@ footer{
 .footer-distributed .footer-center p a {
 	color:  #e0ac1c;
 	text-decoration: none;
-
-
-/* Footer Right */
+}
 
 .footer-distributed .footer-right {
-	width: 30%;	
+	width: 20%;	
 }
 
 .footer-distributed .footer-company-about{
@@ -265,4 +261,68 @@ footer{
 		margin-left: 0;
 	}
 
+	.background h3 {
+      color: #e0ac1c;
+	}
+
+
+
+.work ol li  {
+	line-height: 50%;
+
+}
+	
+}
+
+.work ol li a {
+	margin-top: 50%;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	line-height: 2;
+}
+
+#skills {
+	display: inline-block;
+	display: flex;
+   /* justify-content: space-between ; */
+	
+}
+
+#skills {
+	font-weight: bold;
+}
+
+
+.skills {
+	margin-left: 10%;
+}
+
+.hobbies {
+	margin-left: 25%;
+}
+
+.photo {
+	border-radius: 80%;
+}
+
+.comment1 img {
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+#contacts img span {
+	color: wheat;
+}
+
+.pego {
+	color: whitesmoke;
+	font-size: 48px;
+}
+
+
+#contacts {
+	align-items: center;
+	display: inline-block;
+	flex-direction: column;
 }

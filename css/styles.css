@@ -12,6 +12,11 @@ h2 {
     text-shadow: 3px 3px brown;
 }
 
+.major {
+	font-size: 40px;
+	margin-top: 10%;
+}
+
 .text{
 	display: flex;
 	flex-direction: column;
@@ -277,7 +282,7 @@ footer{
 .work ol li a {
 	margin-top: 50%;
 	text-align: center;
-	color: white;
+	color: red;
 	text-decoration: none;
 	line-height: 2;
 }
@@ -324,6 +329,12 @@ footer{
 .class {
 	display: flex;
 	justify-content: space-evenly;
+	margin-top: 3%;
+}
+
+.class p {
+	font-weight: bold;
+	font-size: 20px;
 }
 
 #contacts img span {
@@ -336,8 +347,8 @@ footer{
 }
 
 
-#contacts {
+#contacts a {
 	align-items: center;
-	display: inline-block;
-	flex-direction: column;
+	display: flex;
+    margin-bottom: 20px;
 }

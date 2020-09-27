@@ -267,16 +267,19 @@ footer{
 
 
 
-.background .column span {
+.work ol li  {
+	line-height: 50%;
 
 }
 	
 }
 
-.work ul li {
+.work ol li a {
 	margin-top: 50%;
 	text-align: center;
-	color: crimson;
+	color: white;
+	text-decoration: none;
+	line-height: 2;
 }
 
 #skills {
@@ -315,6 +318,6 @@ footer{
 
 #contacts {
 	align-items: center;
-	display: flex;
+	display: inline-block;
 	flex-direction: column;
 }

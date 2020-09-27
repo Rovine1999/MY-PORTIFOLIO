@@ -135,8 +135,8 @@ footer{
 	width: 30%;
 }
 
-.footer-distributed .footer-left {
-	
+.footer-distributed .footer-left .footer-name p {
+	margin-bottom: 20%;
 }
 
 .footer-distributed h3 span{
@@ -315,4 +315,6 @@ footer{
 
 #contacts {
 	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
